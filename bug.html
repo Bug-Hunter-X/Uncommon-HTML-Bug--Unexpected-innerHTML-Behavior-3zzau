@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text should be visible.
+  </div>
+  <script>
+    //Incorrect way to add content to div, does not work in all cases
+    document.getElementById("myDiv").innerHTML += "<p>This text should also be visible.</p>";
+  </script>
+</body>
+</html>
