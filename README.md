@@ -1,0 +1,2 @@
+# Uncommon HTML Bug: Unexpected innerHTML Behavior
+This repository demonstrates an uncommon bug related to the use of `innerHTML` in HTML. The bug occurs when using `innerHTML += ...` to append content to a div element, where the appended content is created using a string concatenation.
